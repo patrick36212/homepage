@@ -1,0 +1,53 @@
+.body {
+    background-color: #fff;
+    color: #000;
+}
+
+.body__dark {
+    background-color: #292929;
+    color: #fff;
+}
+
+body, html {
+    padding: 10px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    max-width: 1248px;
+    margin: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:visited {
+    color: currentColor;
+}
+
+.link:focus {
+    padding: 4px;
+}
+
+.link:hover {
+    text-shadow: 1px 1px #000000c3;
+}
+
+.body__dark .link:hover {
+    text-shadow: 1px 1px #ffffffc3;
+}
+
+.link:active {
+    color: #0366d6;
+}
+
+.main {
+    padding: 0 15px;
+    justify-content: center;
+    margin: 40px 0;
+}

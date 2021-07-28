@@ -1,0 +1,41 @@
+.section {
+    border: 1px solid #ccc;
+    margin: 45px 0;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 3px 3px 3px #d0d0d0;
+}
+
+.section__table {
+    border: none;
+    box-shadow: none;
+    overflow-x: auto;
+}
+
+.section--photo {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+
+.photo {
+    margin: auto;
+    max-width: 15%;
+    box-shadow: 3px 3px 5px #ccc;
+}
+
+.section__title {
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 12px;
+    text-shadow: 1px 1px #d0d0d0;
+}
+
+.section__text {
+    margin-left: 8px;
+}
+
+.section__paragraph {
+    text-align: justify;
+    padding: 10px;
+}
