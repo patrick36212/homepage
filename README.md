@@ -1,13 +1,21 @@
-# Junior fromtend homepage
+# Personal Homepage
 
-[DEMO](https://patrick36212.github.io/homepage/)
+- Author: Patryk Krawczyk
+- Created: 28-07-2021
 
-This repository will show how I learn to code.
-You can see there elements like:
+![Screen](css/img/HOMEPAGE.png)
 
-- html
+# Demo
+[Here you find demo](https://patrick36212.github.io/homepage/)
+# Description
+Repository shows my personal homepage.
+It describes me, my work and school.
+Also it shows my interests.
+You can find there my socials and mail.
+Code and used technologes will be update according to my progress.
+# Technologies
+
+- HTML
 - BEM
 - CSS
 - JavaScript
-
-All code will be updated so you can see my progress.
