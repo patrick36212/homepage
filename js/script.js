@@ -1,16 +1,16 @@
-console.log("Hello World! I am here to show you my skills")
-console.log("And I can see it works, hopefully longer than I can imagine")
+{
+    const themeChange = () => {
+        const bodyElement = document.querySelector(".js-body")
+        const themeName = document.querySelector(".js-themeName")
+        bodyElement.classList.toggle("body--dark");
+        themeName.innerText = bodyElement.classList.contains("body--dark")
+            ? "Jasny"
+            : "Ciemny";
+    };
+    const init = () => {
+        const toggleBackgroundButton = document.querySelector(".js-onChangeBackgroundButton")
+        toggleBackgroundButton.addEventListener("click", themeChange);
+    }
 
-let button = document.querySelector(".js-button")
-let body = document.querySelector(".js-body")
-
-button.addEventListener("click", () => {
-    if (button.innerText === "Ciemny") {
-        button.innerText = "Jasny";
-    } else button.innerText = "Ciemny";
-})
-button.addEventListener("click", () => {
-    if (button.innerText === "Jasny") {
-        body.classList.add("body__dark");
-    } else body.classList.remove("body__dark");
-})
+    init();
+}
